@@ -1,0 +1,3 @@
+name: kops-aws-pulumi
+runtime: nodejs
+description: implementation of kops with pulumi

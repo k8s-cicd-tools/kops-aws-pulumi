@@ -1,0 +1,11 @@
+config:
+  aws:region: us-east-1
+  kops-aws-pulumi:awsRegion: us-east-1
+  kops-aws-pulumi:awsRegionAzs: us-east-1a
+  kops-aws-pulumi:clusterName: myfirstcluster.k8s.local
+  kops-aws-pulumi:kopsStatePrefix: ghfrg45d325r-kops-state
+  kops-aws-pulumi:kubernetesVersion: v1.21.1
+  kops-aws-pulumi:masterCount: "1"
+  kops-aws-pulumi:masterSize: t3.medium
+  kops-aws-pulumi:nodeCount: "2"
+  kops-aws-pulumi:nodeSize: t3.medium
